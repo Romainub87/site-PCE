@@ -1,0 +1,51 @@
+.nav-component {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: black 2px solid;
+    align-items: center;
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .logo {
+            margin-left: 10px;
+        }
+
+        .nav-opt {
+            display: flex;
+
+            .list-options {
+                display: flex;
+                list-style: none;
+
+                li {
+                    padding: 20px;
+
+                    &:hover {
+                        background-color: black;
+
+                        a {
+                            color: white;
+                        }
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    .div-name {
+
+        .name {
+            margin-right: 15px;
+        }
+    }
+}
