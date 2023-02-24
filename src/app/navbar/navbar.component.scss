@@ -21,23 +21,22 @@
             .list-options {
                 display: flex;
                 list-style: none;
+                a {
+                    text-decoration: none;
 
-                li {
-                    padding: 20px;
-
-                    &:hover {
-                        background-color: black;
-
-                        a {
-                            color: white;
-                        }
-                    }
-
-                    a {
-                        text-decoration: none;
+                    li {
+                        padding: 20px;
                         color: black;
+                        &:hover {
+                            background-color: black;
+                            color: white;
+                            text-decoration: none;
+                        }
+    
                     }
                 }
+
+               
             }
         }
     }
