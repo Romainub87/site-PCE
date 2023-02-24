@@ -1,0 +1,16 @@
+.meteo {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.meteo .ville {
+  padding: 0;
+  margin: 5px;
+}
+
+.meteo .temp {
+  padding: 0;
+  margin: 5px;
+}
