@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MeteoService } from 'src/services/meteo';
+import { MeteoService } from 'src/services/meteo.service';
 
 @Component({
   selector: 'app-meteo',

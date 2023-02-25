@@ -3,8 +3,8 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
-    border-bottom: black 2px solid;
     align-items: center;
+    background-color: rgb(237, 121, 13);
 
     .navbar {
         display: flex;
@@ -13,6 +13,13 @@
 
         .logo {
             margin-left: 10px;
+            display: flex;
+
+            .name-hotel {
+                font-size: 25px;
+                font-weight: bold;
+                color: rgb(241, 221, 6);
+            }
         }
 
         .nav-opt {
@@ -21,22 +28,49 @@
             .list-options {
                 display: flex;
                 list-style: none;
+                align-items: center;
                 a {
+                    display: flex;
+                    flex-direction: column;
                     text-decoration: none;
+                    justify-content: center;
+                    height: 65px;
+
+
 
                     li {
-                        padding: 20px;
                         color: black;
-                        &:hover {
-                            background-color: black;
-                            color: white;
-                            text-decoration: none;
+                        padding: 20px;
+                        position: relative;
+                        display: inline-block;
+
+                        .underline {
+                          float: right;
+                          width: 0;
+                          height: 2px;
+                          background-color: black;
+                          transition: width 0.3s ease-out;
+                          margin-top: -2px;
+                          border-radius: 25px;
                         }
-    
+
+                        &:hover{
+                          .underline {
+                            float: left;
+                            width: 100%;
+                            transition: width 0.3s ease-out;
+                          }
+                        }
+
+                      }
+
+
                     }
+
+
                 }
 
-               
+
             }
         }
     }
@@ -47,4 +81,4 @@
             margin-right: 15px;
         }
     }
-}
+
