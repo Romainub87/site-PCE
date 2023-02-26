@@ -4,7 +4,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(7px);
 }
 
 .nav-component .navbar {
@@ -54,7 +55,7 @@
   width: 0;
   height: 2px;
   background-color: black;
-  transition: width 0.3s ease-out;
+  transition: width 0.5s ease-out;
   margin-top: -2px;
   border-radius: 25px;
 }
@@ -62,7 +63,7 @@
 .nav-component .navbar .nav-opt .list-options a li:hover .underline {
   float: left;
   width: 100%;
-  transition: width 0.3s ease-out;
+  transition: width 0.5s ease-out;
 }
 
 .div-name .name {

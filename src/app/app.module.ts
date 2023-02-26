@@ -5,16 +5,14 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MeteoComponent } from './meteo/meteo.component';
 import {HttpClientModule} from '@angular/common/http';
-import { ChambreComponent } from './chambre/chambre.component';
-import { ChambreListComponent } from './chambre-list/chambre-list.component'
+import { TextAccueilComponent } from './text-accueil/text-accueil.component';
 
 @NgModule({
   declarations: [
     AccueilComponent,
     NavbarComponent,
     MeteoComponent,
-    ChambreComponent,
-    ChambreListComponent
+    TextAccueilComponent
   ],
   imports: [
     BrowserModule,

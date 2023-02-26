@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChambreListComponent } from './chambre-list.component';
+import { TextAccueilComponent } from './text-accueil.component';
 
-describe('ChambreListComponent', () => {
-  let component: ChambreListComponent;
-  let fixture: ComponentFixture<ChambreListComponent>;
+describe('TextAccueilComponent', () => {
+  let component: TextAccueilComponent;
+  let fixture: ComponentFixture<TextAccueilComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ChambreListComponent ]
+      declarations: [ TextAccueilComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ChambreListComponent);
+    fixture = TestBed.createComponent(TextAccueilComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -4,6 +4,6 @@
 }
 
 .app {
-  background: url("../assets/hotel.jpg") fixed center center no-repeat;
+  background: url(/assets/hotel.png) no-repeat center center fixed;
   min-height: 100vh;
 }
