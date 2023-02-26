@@ -4,12 +4,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(237, 121, 13);
+    backdrop-filter: blur(10px);
 
     .navbar {
         display: flex;
         flex-direction: row;
         align-items: center;
+
 
         .logo {
             margin-left: 10px;

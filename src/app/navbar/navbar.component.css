@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ed790d;
+  backdrop-filter: blur(10px);
 }
 
 .nav-component .navbar {
