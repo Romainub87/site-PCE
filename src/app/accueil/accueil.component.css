@@ -1,9 +1,0 @@
-@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap");
-* {
-  font-family: Shantell Sans;
-}
-
-.app {
-  background: url(/assets/hotel.png) no-repeat center center fixed;
-  min-height: 100vh;
-}
