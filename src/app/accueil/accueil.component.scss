@@ -7,7 +7,11 @@
 
 .app {
   // background hotel.png qui remplit la page
-  background: url(/assets/hotel.png) no-repeat center center fixed;
+  background-image: url(/assets/hotel.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   min-height: 100vh;
 }
 
