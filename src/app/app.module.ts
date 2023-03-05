@@ -11,6 +11,7 @@ import { RestoViewComponent } from './resto-view/resto-view.component';
 import { ContactViewComponent } from './contact-view/contact-view.component';
 
 
+
 @NgModule({
   declarations: [
     AccueilComponent,
