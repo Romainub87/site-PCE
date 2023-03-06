@@ -1,0 +1,79 @@
+.nav-component {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7px);
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+
+        .logo {
+            display: flex;
+        }
+
+        .nav-opt {
+            display: flex;
+
+            .list-options {
+                display: flex;
+                list-style: none;
+                align-items: center;
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    text-decoration: none;
+                    justify-content: center;
+                    height: 65px;
+
+
+
+                    li {
+                        color: black;
+                        padding: 20px;
+                        position: relative;
+                        display: inline-block;
+
+                        .underline {
+                          float: right;
+                          width: 0;
+                          height: 2px;
+                          background-color: black;
+                          transition: width 0.5s ease-out;
+                          margin-top: -2px;
+                          border-radius: 25px;
+                        }
+
+                        &:hover{
+                          .underline {
+                            float: left;
+                            width: 100%;
+                            transition: width 0.5s ease-out;
+                          }
+                        }
+
+                      }
+
+
+                    }
+
+
+                }
+
+
+            }
+        }
+    }
+
+    .div-name {
+
+        .name {
+            margin-right: 15px;
+        }
+    }
+
