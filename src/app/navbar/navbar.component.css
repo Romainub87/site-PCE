@@ -15,14 +15,7 @@
 }
 
 .nav-component .navbar .logo {
-  margin-left: 10px;
   display: flex;
-}
-
-.nav-component .navbar .logo .name-hotel {
-  font-size: 25px;
-  font-weight: bold;
-  color: #f1dd06;
 }
 
 .nav-component .navbar .nav-opt {
