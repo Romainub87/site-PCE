@@ -3,8 +3,35 @@
   font-family: Shantell Sans;
 }
 
-.app {
+.accueil {
   background-image: url(/assets/hotel.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.resto {
+  background-image: url(/assets/resto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.reserver {
+  background-image: url(/assets/reserver.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.contact {
+  background-image: url(/assets/contact.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

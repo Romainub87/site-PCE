@@ -5,9 +5,39 @@
 
 }
 
-.app {
+.accueil {
   // background hotel.png qui remplit la page
   background-image: url(/assets/hotel.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.resto {
+  // background restaurant.png qui remplit la page
+  background-image: url(/assets/resto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.reserver {
+  // background reservation.png qui remplit la page
+  background-image: url(/assets/reserver.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.contact {
+  // background contact.png qui remplit la page
+  background-image: url(/assets/contact.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
